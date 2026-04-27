@@ -60,6 +60,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+
 .main-container {
   background-image: url("images/DSC00800-full-size.jpg");
   background-position: center center;
