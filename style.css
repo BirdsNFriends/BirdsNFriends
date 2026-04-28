@@ -229,7 +229,10 @@ p {
 
   .links {
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    max-width: 650px;
+    row-gap: 25px;
     width: 100%;
   }
 
