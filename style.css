@@ -163,6 +163,11 @@ p {
   margin-bottom: 25px;
 }
 
+.links {
+  column-gap: 25px;
+  row-gap: 25px;
+}
+
 .links li a {
   background-color: var(--purple);
   border-radius: 15px;
@@ -180,6 +185,10 @@ p {
   background-color: var(--white);
   box-shadow: 1px 1px 2px 5px var(--purple);
   color: var(--purple);
+}
+
+.links li a img {
+  height: 50px;
 }
 
 
@@ -232,7 +241,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     max-width: 650px;
-    row-gap: 25px;
     width: 100%;
   }
 
